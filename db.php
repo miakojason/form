@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set("Asia/Taipei");
-$dsn="mysql:host=localhost;charset=utf8;dbname=member";
+$dsn="mysql:host=localhost;charset=utf8;dbname=material";
 $pdo=new PDO($dsn,'root','');
 session_start();
 

@@ -29,7 +29,7 @@ if(isset($_GET['err'])){
 <form action="./api/upload.php" method="post" enctype="multipart/form-data">
 
 <input type="file" name="img" id="">
-<input type="text" name="name" value="描述">
+<input type="text" name="desc" value="" placeholder="請輸入檔案描述">
 <input type="submit" value="上傳">
 </form>
 
