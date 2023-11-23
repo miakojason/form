@@ -77,7 +77,8 @@ $files=all('files');
             <td><?=$file['desc'];?></td>
             <td><?=$file['create_at'];?></td>
             <td>
-                <button class="btn btn-info">編輯</button>
+            <button class="btn btn-info" onclick="location.href='./edit_file.php?id=<?=$file['id'];?>'">編輯</button>
+                <!-- <button class="btn btn-info" onclick="location.href='./api/del_file.php?id=</=$file['id'];?>'"><a href="">刪除</a></button> -->
                 <a class="btn btn-danger" href='./api/del_file.php?id=<?=$file['id'];?>'>刪除</a>
             </td>
         </tr>
