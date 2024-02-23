@@ -131,6 +131,7 @@ function captcha($str){
             ];
 
     //填入底色        
+    // imagefill($dst_img,0,0,$colors[rand(0,10)]);
     imagefill($dst_img,0,0,$white);
     
     //建立一個開始繪製文字圖形的起始坐標，由邊框的厚度開始繪製
