@@ -14,5 +14,6 @@
 <a href="image.php"><div class="types">圖形處理-縮圖</div></a>
 <a href="image2.php"><div class="types">圖形處理-加邊框</div></a>
 <a href="filelist.php"><div class="types">檔案處理-瀏灠資料夾</div></a>
+<a href="catpcha.php"><div class="types">圖形處理-圖形驗證碼</div></a>
 </body>
 </html>
