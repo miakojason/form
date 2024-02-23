@@ -14,7 +14,7 @@
  * 回傳值 :string
  */
 
- echo code(8,10);
+ echo code(8);
 function code(...$length){
   
     //使用亂數來產生驗證碼長度，判斷是否帶有參數來決定長度變數的產生方式
