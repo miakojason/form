@@ -26,7 +26,7 @@ if(isset($_GET['err'])){
 }
 
 ?>
-<div class="text-center"><a class=" btn btn-primary " href="manage.php" role="button">回列表</a></div>
+<div class="text-center"><a href="manage.php">回列表</a></div>
 <form action="./api/edit_file.php" method="post" enctype="multipart/form-data">
 <div class="col-6 mx-auto">
     <table class="table">
@@ -73,7 +73,7 @@ if(isset($_GET['err'])){
         </tr>
     </table>
     <div class="text-center m-3">
-    <input type="hidden" name="id" value="<?=$file['id'];?>">
+        <input type="hidden" name="id" value="<?=$file['id'];?>">
         <input type="submit" value="更新">
     </div>
 </div>

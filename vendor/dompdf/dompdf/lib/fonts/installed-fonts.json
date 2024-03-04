@@ -1,0 +1,20 @@
+{
+    "gjgm": {
+        "normal": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Medium",
+        "bold": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Medium",
+        "italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Medium",
+        "bold_italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Medium"
+    },
+    "dfs": {
+        "normal": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/DFBangShuStd-W8",
+        "bold": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/DFBangShuStd-W8",
+        "italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/DFBangShuStd-W8",
+        "bold_italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/DFBangShuStd-W8"
+    },
+    "gjgl": {
+        "normal": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Light",
+        "bold": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Light",
+        "italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Light",
+        "bold_italic": "F:\\form\\vendor\\dompdf\\dompdf\/lib\/fonts\/GenJyuuGothic-Light"
+    }
+}

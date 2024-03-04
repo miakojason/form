@@ -5,6 +5,7 @@ if(isset($_POST['id'])){
 }else{
     exit();
 }
+
 if(!empty($_FILES['img']['tmp_name'])){
 
     if($_POST['name']!=$file['name']){
@@ -39,7 +40,7 @@ if(!empty($_FILES['img']['tmp_name'])){
 
      }
 
-     if($type!=$file['type']){
+    if($type!=$file['type']){
         $file['type']=$type;
         $subname=end(explode(".",$_FILES['img']['name']));
         $tmp=explode(".",$file['name']);
@@ -48,25 +49,26 @@ if(!empty($_FILES['img']['tmp_name'])){
 
     }
 
-    $file['type']=$type;
-    $file['size']=$_FILES['img']['size'];
+     $file['type']=$type;
+     $file['size']=$_FILES['img']['size'];
+     
+    }else{
+        if($_POST['name']!=$file['name']){
+            rename('../imgs/'.$file['name'],'../imgs/'.$_POST['name']);
+            $file['name']=$_POST['name'];
 
-   }else{
-       if($_POST['name']!=$file['name']){
-           rename('../imgs/'.$file['name'],'../imgs/'.$_POST['name']);
-           $file['name']=$_POST['name'];
+        }
+    }
 
-       }
-   }
-
-   if($_POST['desc']!=$file['desc']){
-       $file['desc']=$_POST['desc'];
-   }
-
-
-       update('files',$_POST['id'],$file);
-       //header("location:../upload.php?img=".$filename);
-       header("location:../manage.php");
+    if($_POST['desc']!=$file['desc']){
+        $file['desc']=$_POST['desc'];
+    }
+        
+        
+        update('files',$_POST['id'],$file);
+        //header("location:../upload.php?img=".$filename);
+        header("location:../manage.php");
 
 ///    header("location:../edit_file.php?err=上傳失敗");
+
 ?>
